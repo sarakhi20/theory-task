@@ -1,0 +1,9 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2?
+  HTTP1.1
+***simpler to implement
+***the straight forward text-based nature of HTTP1.1 make it easier to implement  and debug
+HTTP2
+***more complex
+***the binary nature and additional features like multiplexing and header compression make HTTP2 more complex to implement and debug
+Write a blog about objects and its internal representation in Javascript?
+  ***object are collections of key-value pairs where keys are strings (or symbols)and values can be of any data type,including other object.
