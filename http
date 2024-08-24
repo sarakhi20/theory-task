@@ -1,9 +1,42 @@
-Write a blog on Difference between HTTP1.1 vs HTTP2?
-  HTTP1.1
-***simpler to implement
-***the straight forward text-based nature of HTTP1.1 make it easier to implement  and debug
-HTTP2
-***more complex
-***the binary nature and additional features like multiplexing and header compression make HTTP2 more complex to implement and debug
-Write a blog about objects and its internal representation in Javascript?
-  ***object are collections of key-value pairs where keys are strings (or symbols)and values can be of any data type,including other object.
+What is HTTP?
+    HTTP stands for Hyper Text Transfer Protocol.
+    Helps in web client and web server communication.
+    With the help of HTTP request send to the server and the response send to the user.
+
+Evolution of HTTP;
+    1) HTTP     (1991)
+    2) HTTP/1.0 (1996)
+    3) HTTP/1.1 (1997) 
+    4) HTTP/2   (2015)
+
+What is TCP?
+      TCP stands for Transmission Control Protocol.
+      IP address is a essential thing for connecting to internet.
+      Data goes to the server as a packet and come from the server as packets.
+      The packets are controlled by TCP.
+      TCP will make the transmission process active.
+
+Difference between HTTP/1.1 and HTTP/2:
+HTTP/1.1;
+        1)In HTTP/1.1 the TCP connection will happen for every request and response.
+          It will consume more time.
+        
+        2)It is not in binary Protocol.
+          Stealing of data can be done easily.
+        
+        3)Sending request by client only.     
+
+HTTP/2;        
+        1)Request multiplexing is there in HTTP/2
+          Multiple HTTP request can be done in one TCP connection.
+          The data landing will be faster.
+          compression using Hpack compression techqunic and being transmitted to the network.
+        
+        2)It is a binary Protocol.
+          Very easy to parse the incomming request.
+          Can't be used by humans easily.
+          Effective network utilization.
+       
+        3)Client and and server can sent request.
+          It gives additional information which is not in the request.
+          Client can accept or deny or disable the additional information.
